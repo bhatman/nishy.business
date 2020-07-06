@@ -38,3 +38,19 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  a {
+    color: #809fff;
+  }
+
+  img { /* just in case */
+  filter: brightness(.8) contrast(1.2);
+
+}
+}
