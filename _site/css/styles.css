@@ -4,16 +4,16 @@ body {
 	font-family: 'Martel', serif;
 	-webkit-font-smoothing: auto;
 	font-size: 1em;
-    line-height: 1.3em;
-    margin: 100px;
+	line-height: 1.3em;
+	margin: 100px;
 	text-align: left;
-    letter-spacing: -0.2px;
-    max-width: 100%;
+	letter-spacing: -0.2px;
+	max-width: 100%;
 }
 
 h1 {
 	padding-top: 60px;
-    letter-spacing: -1px;
+	letter-spacing: -1px;
 }
 
 h2 {
@@ -40,17 +40,15 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    color: #eee;
-    background: #121212;
-  }
-
-  a {
-    color: #809fff;
-  }
-
-  img { /* just in case */
-  filter: brightness(.8) contrast(1.2);
-
-}
+	body {
+		color: #ddd;
+		background: #18191A;
+	}
+	a {
+		color: #809fff;
+	}
+	img {
+		/* just in case */
+		filter: brightness(.8) contrast(1.2);
+	}
 }
