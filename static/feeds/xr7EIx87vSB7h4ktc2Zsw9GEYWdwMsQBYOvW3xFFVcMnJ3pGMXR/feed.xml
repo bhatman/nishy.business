@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
+    <channel>
+        <title>A Podcast</title>
+        <link>https://nishy.business/feeds/xr7EIx87vSB7h4ktc2Zsw9GEYWdwMsQBYOvW3xFFVcMnJ3pGMXR/feed.xml</link>
+        <language>en-us</language>
+        <copyright>Copyright 2025</copyright>
+        <itunes:author>NB</itunes:author>
+        <description>My personal podcast feed</description>
+        <itunes:type>episodic</itunes:type>
+        <itunes:owner>
+            <itunes:name>Your Name</itunes:name>
+            <itunes:email>your.email@example.com</itunes:email>
+        </itunes:owner>
+        <itunes:image>
+            <url>https://placehold.co/1400x1400</url>
+        </itunes:image>
+        <itunes:category text="Personal Journals"/>
+        
+        <item>
+            <title>Episode 1: My First Episode</title>
+            <description>Description of my first episode</description>
+            <itunes:duration>1234</itunes:duration>
+            <pubDate>Thu, 02 Jan 2025 15:00:00 GMT</pubDate>
+            <enclosure 
+                url="https://archive.org/download/warren-buffett-lecture-university-of-florida-1998/Warren%20Buffett%20%EF%BD%9C%20Lecture%20%EF%BD%9C%20University%20Of%20Florida%20%EF%BD%9C%201998.mp3"
+                type="audio/mpeg"
+                length="5075"
+            />
+            <guid isPermaLink="false">episode-1-2025-01-02</guid>
+            <itunes:explicit>false</itunes:explicit>
+        </item>
+    </channel>
+</rss>
