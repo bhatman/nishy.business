@@ -39,6 +39,39 @@ a:hover {
 	text-decoration: underline;
 }
 
+.social_links a {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px;
+	margin-right: 6px;
+}
+
+.social_links a:hover {
+	text-decoration: none;
+	opacity: 0.9;
+}
+
+.icon {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	fill: currentColor;
+	vertical-align: middle;
+}
+
+.social_links svg {
+	width: 22px;
+	height: 22px;
+	fill: currentColor;
+	margin-right: 8px;
+	transition: fill 0.2s ease-in-out;
+}
+
+.social_links svg:hover {
+	fill: #809fff;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		color: #ddd;
@@ -50,5 +83,8 @@ a:hover {
 	img {
 		/* just in case */
 		filter: brightness(.8) contrast(1.2);
+	}
+	.social_links svg:hover {
+		fill: #ddd;
 	}
 }
